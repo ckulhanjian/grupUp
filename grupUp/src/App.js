@@ -1,18 +1,17 @@
-import { useForm } from "react-hook-form";
+// src/App.js
+import React from 'react';
+import MainForm from './components/mainForm';
 
-const App = () => {
-  const { register, handleSubmit } = useForm();
-
-  const onSubmit = (data) => {
-    console.log(data)
-  }
-
+function App() {
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
-      <input {...register("email")} type="text" placeholder="Email" />
-      <input {...register("password")} type="password" placeholder="Password" />
-      <button type="submit">Submit</button>
-    </form>
+    <div className="min-h-screen bg-gray-100 py-8">
+      <div className="container mx-auto px-4">
+        <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">
+          Multi-Step Form with Your JSON Format
+        </h1>
+        <MainForm/>
+      </div>
+    </div>
   );
 }
 

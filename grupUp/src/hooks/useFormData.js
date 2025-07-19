@@ -55,8 +55,7 @@ export const useFormData = () => {
   return {
     formData,
     updateFormData,
-    handleMultiSelectChange,
-    handleModeGroupChange,
+    handleInputChange,
     resetForm
   };
 };

@@ -1,4 +1,5 @@
 // src/components/InputRenderer.js
+// import { useFormData } from '../hooks/useFormData';
 
 const InputRenderer = ({ question, value, updateFormData }) => {
   const { id, type, options = [], placeholder } = question;
@@ -63,7 +64,6 @@ const InputRenderer = ({ question, value, updateFormData }) => {
     case 'single-select':
       return renderSingleSelect();
     case 'text':
-    case 'email':
       return renderTextInput();
     default:
       return <div className="text-red-500">Unknown question type: {type}</div>;
