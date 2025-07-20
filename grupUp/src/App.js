@@ -1,16 +1,21 @@
 // src/App.js
-import React from 'react';
+import React, { useState } from 'react';
 import MainForm from './components/mainForm';
+import { startButton } from './styles/styles';
 
 function App() {
+  const [showForm, setShowForm] = useState(false);
+  const handleClick = () => {
+    setShowForm(true);
+  }
   return (
-    <div className="min-h-screen bg-gray-100 py-8">
-      <div className="container mx-auto px-4">
-        <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">
-          Multi-Step Form with Your JSON Format
-        </h1>
-        <MainForm/>
-      </div>
+    <div className='h-screen flex flex-col items-center justify-center'>
+      {!showForm ? (
+        <div className="flex flex-col items-center space-y-6 pb-32">
+          <h1 className="text-4xl">User Matching Algorithm &#x2740;</h1>
+          <button onClick={handleClick} className={startButton}>Start</button>
+        </div>
+      ) : ( <MainForm />)}
     </div>
   );
 }

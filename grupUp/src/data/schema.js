@@ -13,19 +13,19 @@ export const questions = {
     "weight": 1
   },
 
-  "q3_intention_by_event": {
-    "type": "mode-group",
-    "question": "Your intention by event",
-    "events": [
-      "Club", "Concert", "Festival", "House Party", "Street Fair"
-    ],
-    "options": ["Dance", "Chill", "Meet People", "Vibe", "Observe"],
-    "per_event": {
-      "self": "What do YOU feel like doing at this event?",
-      "expected": "What do you want OTHERS to be like at this event?"
-    },
-    "weight": 2
-  },
+  // "q3_intention_by_event": {
+  //   "type": "mode-group",
+  //   "question": "Your intention by event",
+  //   "events": [
+  //     "Club", "Concert", "Festival", "House Party", "Street Fair"
+  //   ],
+  //   "options": ["Dance", "Chill", "Meet People", "Vibe", "Observe"],
+  //   "per_event": {
+  //     "self": "What do YOU feel like doing at this event?",
+  //     "expected": "What do you want OTHERS to be like at this event?"
+  //   },
+  //   "weight": 2
+  // },
 
   // "q4_financial": {
   //   "type": "scale",

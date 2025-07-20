@@ -3,7 +3,7 @@ import React from 'react';
 import InputRenderer from './inputRender';
 // import { useFormData } from '../hooks/useFormData';
 
-const QuestionStep = ({ question, formData, handleInputChange }) => {
+const QuestionStep = ({ question, formData, updateFormData }) => {
   const value = formData[question.id]; // value associated with key
 
   return (
@@ -15,7 +15,7 @@ const QuestionStep = ({ question, formData, handleInputChange }) => {
       <InputRenderer
         question={question}
         value={value}
-        handleInputChange={handleInputChange}
+        updateFormData={updateFormData}
       />
     </div>
   );
