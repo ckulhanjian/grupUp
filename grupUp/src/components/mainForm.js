@@ -44,7 +44,7 @@ const MultiStepForm = () => {
   const isLastStep = currentStep === questions.length - 1;
 
   return (
-    <div className="max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-lg">
+    <div className="m-60 mt-56">
       
       <QuestionStep
         question={currentQuestion}
@@ -53,13 +53,13 @@ const MultiStepForm = () => {
       />
 
       {/* Navigation Buttons */}
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center pt-10">
         {/* back button */}
         <button
           onClick={prevStep}
           disabled={currentStep === 0}
           className={backArrow(currentStep)}>
-          <span>&#8593;</span>
+          <span>&#x2190;</span>
         </button>
 
         {/* next button or submit */}
@@ -69,7 +69,7 @@ const MultiStepForm = () => {
           </button>
         ) : (
           <button onClick={nextStep} className={nextArrow}>
-            <span>&#8595;</span>
+            <span>&#x2192;</span>
           </button>
         )}
       </div>

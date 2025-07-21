@@ -20,8 +20,8 @@ const InputRenderer = ({ question, value, updateFormData }) => {
           }}
           className={`px-4 py-2 rounded-full border-2 transition-all ${
             value.includes(option)
-              ? 'bg-blue-600 text-white border-blue-600'
-              : 'bg-white text-gray-700 border-gray-300 hover:border-blue-400'
+              ? 'bg-pink-400 text-white border-pink-500'
+              : 'bg-white text-gray-700 border-gray-300 hover:border-pink-400'
           }`}
         >
           {option}
@@ -31,7 +31,7 @@ const InputRenderer = ({ question, value, updateFormData }) => {
   );
 
   const renderSingleSelect = () => (
-    <div className="space-y-2">
+    <div className="space-y-2 text-base">
       {options.map((option) => (
         <label key={option} className="flex items-center space-x-2 cursor-pointer">
           <input
@@ -40,7 +40,7 @@ const InputRenderer = ({ question, value, updateFormData }) => {
             value={option}
             checked={value === option}
             onChange={() => handleChange(option)}
-            className="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500"
+            className="w-8 h-8 text-pink-600 border-gray-300 focus:ring-pink-500"
           />
           <span className="text-gray-700">{option}</span>
         </label>
@@ -61,7 +61,7 @@ const InputRenderer = ({ question, value, updateFormData }) => {
   switch (type) {
     case 'multi-select':
       return renderMultiSelect();
-    case 'single-select':
+    case 'select':
       return renderSingleSelect();
     case 'text':
       return renderTextInput();

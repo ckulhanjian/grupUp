@@ -1,3 +1,6 @@
+import styled from 'styled-components';
+import bgImage1 from '../assets/blue2.svg';
+
 export const startButton = `
   w-32 h-14 text-base rounded-full mt-4
   outline outline-2 outline-gray-300 
@@ -15,4 +18,13 @@ export const backArrow = (currentStep) => `
 
 export const submitButton = 'flex items-center space-x-2 px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors';
 
-export const nextArrow = "flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors";
+export const nextArrow = "flex items-center space-x-2 px-4 py-2 bg-stone-400 text-white rounded-lg hover:bg-stone-700 transition-colors";
+
+export const BgHome = styled.div`
+  background-image: url(${bgImage1});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+`;

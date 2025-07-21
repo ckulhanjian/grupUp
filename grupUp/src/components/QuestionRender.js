@@ -7,8 +7,8 @@ const QuestionStep = ({ question, formData, updateFormData }) => {
   const value = formData[question.id]; // value associated with key
 
   return (
-    <div className="mb-8">
-      <h2 className="text-2xl font-semibold text-gray-800 mb-6">
+    <div className="flex flex-col items-center py-2">
+      <h2 className="text-5xl text-black mb-12">
         {question.question}
       </h2>
 
