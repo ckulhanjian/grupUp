@@ -1,7 +1,11 @@
 export const questions = {
+  "q1_name": {
+    "type":"text",
+    "question":"Enter your name"
+  },
   "q1_hobbies": {
     "type": "multi-select",
-    "question": "What are your hobbies and interests?",
+    "question": "Select at least 5 hobbies & interests",
     "options": ["Cooking", "Dancing", "Hiking", "Gaming", "Music", 
       "Volunteering", "Reading", "Travel", "Art", "Fitness", "Tech", "Sports", "Writing", 
       "Photography","Card Games","Cars","Fashion", "Politics","Biking","Animals","Video Games",
@@ -11,14 +15,14 @@ export const questions = {
 
   "q2_intention_general": {
     "type": "multi-select",
-    "question": "What is your intention when going out?",
+    "question": "When I go out I want to...",
     "options": ["Have a good time & be spontaneous", "Meet people and have good conversation", "Enjoy the event I came for", "Listen to music and dance", "Explore the location", "Make new friends", "Try new things", "Relax and unwind"],
     "weight": 1
   },
 
   "q3_intention_by_event": {
     "type": "mode-group",
-    "question": "Your intention by event",
+    "question": "Choose your mood at specific events and decidie how you'd prefer others to respond:",
     "events": [
       "Club", "Concert", "Festival", "House Party", "Street Fair"
     ],
@@ -32,23 +36,25 @@ export const questions = {
 
   "q4_financial": {
     "type": "scale",
-    "question": "How do you view spending money when going out?",
+    "question": "What are your spending habits when you go out?",
     "options": [
-      "Only essentials",
+      "I only buy essentials",
       "Budget when it doesn’t compromise experience",
-      "Not concerned with money"
+      "Not concerned with money!",
+      "Varies"
     ],
     "weight": 1
   },
 
   "q5_transportation": {
-    "type": "select",
-    "question": "Preferred transportation / travel method?",
+    "type": "scale",
+    "question": "What is your transportation preference?",
     "options": [
       "Uber/Lyft is preferred",
       "Walk when able",
       "I like to drive",
-      "Not comfortable with strangers driving"
+      "Not comfortable with strangers driving",
+      "Varies"
     ],
     "weight": 1
   },
@@ -82,10 +88,12 @@ export const questions = {
     "type": "multi-select",
     "question": "How do you recharge your social battery?",
     "options": [
-      "People",
-      "Exercise",
-      "Creativity",
-      "Visual Entertainment"
+      "Time with family & friends",
+      "Going out and meeting new people",
+      "Doing exercise",
+      "Being creative",
+      "Television/Movies",
+      "A nice meal"
     ],
     "weight": 1
   },
@@ -100,16 +108,16 @@ export const questions = {
     "type": "scale",
     "question": "How do you handle stress or conflict?",
     "options": [
-      "Shutdown",
-      "Stay calm",
-      "Freak out",
+      "I don't...I shutdown",
+      "For the most part I stay calm",
+      "Ngl I freak out",
     ],
     "weight": 1
   },
 
   "q10_traits": {
     "type": "nested-select",
-    "question": "Pick one trait from each category",
+    "question": "Pick one trait from each category:",
     "options": {
       "Work Ethic": ["Driven", "Flexible", "Laid-back"],
       "Fitness": ["Active", "Balanced", "Sedentary"],
@@ -158,6 +166,12 @@ export const generateInitialFormData = () => {
         break;
       case 'multi-text':
         initialData[id] = Array(3).fill("");
+        break;
+      case 'nested-select':
+        initialData[id] = {};
+        Object.keys(question.options).forEach((category) => {
+          initialData[id][category] = "";
+        });
         break;
       default:
         initialData[id] = '';

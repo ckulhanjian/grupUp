@@ -5,32 +5,30 @@ const InputRenderer = ({ question, value, updateFormData }) => {
   const { id, type, options = [], placeholder, events, choices, per_event,  } = question;
 
   const handleChange = (newValue, context = {}) => {
-  // context could include { event: "Club", type: "self" }
-  if (question.type === "mode-group") {
-    const { eventName, subType } = context;
-    updateFormData(id, {
-      ...value, // value is the current formData[id]
-      [eventName]: {
-        ...value[eventName],
-        [subType]: [newValue]
+    if (question.type === "mode-group") {
+      const { eventName, subType } = context;
+      updateFormData(id, {
+        ...value,
+        [eventName]: {
+          ...value[eventName],
+          [subType]: [newValue]
+        }
+      });
+    } 
+    else if (question.type === "multi-text") {
+      const currentFacts = Array.isArray(value) ? [...value] : ["", "", ""];
+      while (currentFacts.length < 3) {
+        currentFacts.push("");
       }
-    });
-  } 
-   else if (question.type === "multiText") {
-    // Initialize array with 3 empty strings for facts
-    const currentFacts = Array.isArray(value) ? [...value] : ["", "", ""];
-    
-    // Ensure we always have exactly 3 fact slots
-    while (currentFacts.length < 3) {
-      currentFacts.push("");
+      currentFacts[context] = newValue;
+      updateFormData(id, currentFacts);
+    } 
+    else if (question.type === "nested-select") {
+      const { category } = context; // context must include category
+      const updated = { ...value, [category]: newValue };
+      updateFormData(id, updated);
     }
-    
-    // Update the specific fact at the given index
-    currentFacts[context] = newValue;
-    
-    updateFormData(id, currentFacts);
-  } 
-  else {
+    else {
       updateFormData(id, newValue);
     }
   };
@@ -66,7 +64,7 @@ const InputRenderer = ({ question, value, updateFormData }) => {
         {/* You / self */}
         <select
           className={`w-full border rounded-full px-2 py-2 
-            ${value[event]?.self[0] ? "bg-pink-400 border-pink-600 text-white" : "bg-white border-gray-300"}
+            ${value[event]?.self[0] ? "bg-pink-400 border-pink-600 text-white" : "bg-stone-100 border-gray-300"}
             `}
           value={value[event]?.self[0] || ""}
           onChange={(e) =>
@@ -84,7 +82,7 @@ const InputRenderer = ({ question, value, updateFormData }) => {
         {/* Others / expected */}
         <select
           className={`w-full border rounded px-2 py-2 
-            ${value[event]?.expected[0] ? "bg-red-400 border-red-600 text-white" : "bg-white border-gray-300"}
+            ${value[event]?.expected[0] ? "bg-red-400 border-red-600 text-white" : "bg-stone-100 border-gray-300"}
             `}
           value={value[event]?.expected[0] || ""}
           onChange={(e) =>
@@ -181,9 +179,30 @@ const InputRenderer = ({ question, value, updateFormData }) => {
       value={value}
       onChange={(e) => handleChange(e.target.value)}
       placeholder={placeholder}
-      className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+      className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
     />
   );
+
+  const renderNestedSelect = () => (
+    <div className="space-y-4">
+      {Object.entries(options).map(([category, choices]) => (
+        <div key={category}>
+          <label className="block font-semibold text-lg mb-2">{category}</label>
+          <select value={value?.[category] || ""}
+          onChange = {(e) => handleChange(e.target.value, { category })}
+          className = {`w-full border px-3 py-2 rounded ${value[category] 
+          ? "bg-pink-400 bg-outline-pink-600 text-white" : "bg-stone-200"}`}>
+            <option value="">Select One</option>
+            {choices.map((choice) => (
+              <option key={choice} value={choice}>
+                {choice}
+              </option>
+            ))}
+          </select>
+        </div>
+      ))}
+    </div>
+  )
 
   switch (type) {
     case 'multi-select':
@@ -198,6 +217,8 @@ const InputRenderer = ({ question, value, updateFormData }) => {
       return renderModeGroup();
     case 'scale':
       return renderScale();
+    case 'nested-select':
+      return renderNestedSelect();
     default:
       return <div className="text-red-500">Unknown question type: {type}</div>;
   }
