@@ -1,7 +1,7 @@
 export const startButton = `
-  w-28 h-14 text-xl rounded-full 
-  outline outline-2 outline-gray-300
-  hover:outline-blue-400
+  w-32 h-14 text-base rounded-full mt-4
+  outline outline-2 outline-gray-300 
+  hover:outline-black hover:outline-4
 `.trim();
 
 
