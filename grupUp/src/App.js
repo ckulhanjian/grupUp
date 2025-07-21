@@ -80,7 +80,9 @@ function App() {
         </div>
       ) : ( 
             <BgHome>
+            {/* <div className="bg-white rounded-xl shadow-xl p-8 max-w-5xl mx-auto w-full h-fit overflow-hidden"> */}
               <MainForm />
+              {/* </div> */}
             </BgHome>
             
           

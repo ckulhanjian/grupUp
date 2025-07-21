@@ -8,7 +8,7 @@ const QuestionStep = ({ question, formData, updateFormData }) => {
 
   return (
     <div className="flex flex-col items-center py-2">
-      <h2 className="text-5xl text-black mb-12">
+      <h2 className="text-5xl text-black mb-12 -mt-12">
         {question.question}
       </h2>
 
