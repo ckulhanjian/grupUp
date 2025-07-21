@@ -40,7 +40,7 @@ const InputRenderer = ({ question, value, updateFormData }) => {
             value={option}
             checked={value === option}
             onChange={() => handleChange(option)}
-            className="w-8 h-8 text-pink-600 border-gray-300 focus:ring-pink-500"
+            className="w-4 h-4 text-pink-600 border-gray-300 focus:ring-pink-500"
           />
           <span className="text-gray-700">{option}</span>
         </label>

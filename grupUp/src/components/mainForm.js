@@ -44,13 +44,18 @@ const MultiStepForm = () => {
   const isLastStep = currentStep === questions.length - 1;
 
   return (
-    <div className="m-60 mt-56">
+    <div className="m-60 mt-56 ">
       
-      <QuestionStep
-        question={currentQuestion}
-        formData={formData}
-        updateFormData={updateFormData}
-      />
+        <div
+          key={currentQuestion}
+          className="transition-all duration-500 ease-in-out transform opacity-100 translate-y-0"
+        >
+          <QuestionStep
+            question={currentQuestion}
+            formData={formData}
+            updateFormData={updateFormData}
+          />
+          </div>
 
       {/* Navigation Buttons */}
       <div className="flex justify-between items-center pt-10">
