@@ -7,6 +7,9 @@ function App() {
   const [showForm, setShowForm] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
   const [showText, setShowText] = useState(false);
+
+  // In App.js, add this at the top of your App function:
+  // console.log('🟢 App component rendered, showForm:', showForm);
   
   const handleClick = () => {
     setShowForm(true);

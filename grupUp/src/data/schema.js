@@ -1,9 +1,9 @@
 export const questions = {
-  "q1_name": {
+  "name": {
     "type":"text",
     "question":"Enter your name"
   },
-  "q1_hobbies": {
+  "hobbies": {
     "type": "multi-select",
     "question": "Select at least 5 hobbies & interests",
     "options": ["Cooking", "Dancing", "Hiking", "Gaming", "Music", 
@@ -13,14 +13,14 @@ export const questions = {
     "weight": 1
   },
 
-  "q2_intention_general": {
+  "intention_out": {
     "type": "multi-select",
     "question": "When I go out I want to...",
     "options": ["Have a good time & be spontaneous", "Meet people and have good conversation", "Enjoy the event I came for", "Listen to music and dance", "Explore the location", "Make new friends", "Try new things", "Relax and unwind"],
     "weight": 1
   },
 
-  "q3_intention_by_event": {
+  "intention_by_event": {
     "type": "mode-group",
     "question": "Choose your mood at specific events and decidie how you'd prefer others to respond:",
     "events": [
@@ -34,7 +34,7 @@ export const questions = {
     "weight": 2
   },
 
-  "q4_financial": {
+  "money": {
     "type": "scale",
     "question": "What are your spending habits when you go out?",
     "options": [
@@ -46,7 +46,7 @@ export const questions = {
     "weight": 1
   },
 
-  "q5_transportation": {
+  "transportation": {
     "type": "scale",
     "question": "What is your transportation preference?",
     "options": [
@@ -59,7 +59,7 @@ export const questions = {
     "weight": 1
   },
 
-  "q6_dietary": {
+  "diet": {
     "type": "multi-select",
     "question": "Do you have any dietary restrictions?",
     "options": [
@@ -84,7 +84,7 @@ export const questions = {
     "weight": 1
   },
 
-  "q7_recharge": {
+  "social_battery": {
     "type": "multi-select",
     "question": "How do you recharge your social battery?",
     "options": [
@@ -104,7 +104,7 @@ export const questions = {
   //   "optional": true
   // },
 
-  "q9_conflict": {
+  "stress": {
     "type": "scale",
     "question": "How do you handle stress or conflict?",
     "options": [
@@ -115,7 +115,7 @@ export const questions = {
     "weight": 1
   },
 
-  "q10_traits": {
+  "traits": {
     "type": "nested-select",
     "question": "Pick one trait from each category:",
     "options": {
@@ -126,7 +126,7 @@ export const questions = {
     "weight": 1
   },
 
-  "q11_fun_facts": {
+  "fun_facts": {
     "type": "multi-text",
     "question": "Share 3 fun facts about yourself!",
     "optional": true

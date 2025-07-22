@@ -1,0 +1,2182 @@
+[
+  {
+    "name": "Sade",
+    "hobbies": [
+      "Reading",
+      "Volunteering",
+      "Gym",
+      "Fitness",
+      "Dancing"
+    ],
+    "intention_out": [
+      "Relax and unwind",
+      "Enjoy the event I came for",
+      "Meet people and have good conversation",
+      "Make new friends",
+      "Have a good time & be spontaneous"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Dance"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Vibe"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Meet People"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Vibe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      }
+    },
+    "money": [
+      "Budget when it doesn’t compromise experience"
+    ],
+    "transportation": [
+      "Uber/Lyft is preferred"
+    ],
+    "diet": [
+      "Low/No sugar",
+      "None",
+      "Other",
+      "Vegetarian",
+      "Pescetarian"
+    ],
+    "social_battery": [
+      "Doing exercise",
+      "Being creative",
+      "A nice meal",
+      "Time with family & friends",
+      "Television/Movies"
+    ],
+    "stress": [
+      "For the most part I stay calm"
+    ],
+    "traits": {
+      "Work Ethic": "Laid-back",
+      "Fitness": "Active",
+      "Social": "Intimate friends"
+    },
+    "fun_facts": [
+      "I ran a marathon last year",
+      "I volunteer at an animal shelter",
+      "I write short stories in my free time"
+    ]
+  },
+  {
+    "name": "Jack Sparrow",
+    "hobbies": [
+      "Drawing",
+      "Music",
+      "Reading",
+      "Cooking",
+      "Video Games"
+    ],
+    "intention_out": [
+      "Try new things",
+      "Relax and unwind",
+      "Make new friends"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Dance"
+        ],
+        "expected": [
+          "Vibe"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Vibe"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Meet People"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      }
+    },
+    "money": [
+      "Budget when it doesn’t compromise experience"
+    ],
+    "transportation": [
+      "Walk when able"
+    ],
+    "diet": [
+      "Pescetarian",
+      "None"
+    ],
+    "social_battery": [
+      "Being creative",
+      "Television/Movies",
+      "Time with family & friends"
+    ],
+    "stress": [
+      "For the most part I stay calm"
+    ],
+    "traits": {
+      "Work Ethic": "Driven",
+      "Fitness": "Balanced",
+      "Social": "Intimate friends"
+    },
+    "fun_facts": [
+      "I paint landscapes",
+      "I speak 3 languages",
+      "I collect vinyl records"
+    ]
+  },
+  {
+    "name": "Michael Yordan",
+    "hobbies": [
+      "Tech",
+      "Sports",
+      "Gaming",
+      "Movies",
+      "Travel"
+    ],
+    "intention_out": [
+      "Have a good time & be spontaneous",
+      "Explore the location"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Dance"
+        ],
+        "expected": [
+          "Vibe"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Meet People"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Any"
+        ]
+      }
+    },
+    "money": [
+      "Not concerned with money!"
+    ],
+    "transportation": [
+      "Uber/Lyft is preferred"
+    ],
+    "diet": [
+      "None"
+    ],
+    "social_battery": [
+      "Going out and meeting new people",
+      "A nice meal"
+    ],
+    "stress": [
+      "Ngl I freak out"
+    ],
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Active",
+      "Social": "More friends"
+    },
+    "fun_facts": [
+      "I've been to 15 countries",
+      "I love spicy food",
+      "I once met a celebrity on a train"
+    ]
+  },
+  {
+    "name": "Big Bird",
+    "hobbies": [
+      "Dancing",
+      "Volunteering",
+      "Fashion",
+      "Fitness",
+      "Cooking"
+    ],
+    "intention_out": [
+      "Listen to music and dance",
+      "Meet people and have good conversation"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Dance"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Vibe"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Explore the location"
+        ],
+        "expected": [
+          "Meet People"
+        ]
+      }
+    },
+    "money": [
+      "Budget when it doesn’t compromise experience"
+    ],
+    "transportation": [
+      "I like to drive"
+    ],
+    "diet": [
+      "Vegan",
+      "Low/No sugar"
+    ],
+    "social_battery": [
+      "Doing exercise",
+      "Time with family & friends",
+      "A nice meal"
+    ],
+    "stress": [
+      "For the most part I stay calm"
+    ],
+    "traits": {
+      "Work Ethic": "Driven",
+      "Fitness": "Active",
+      "Social": "More friends"
+    },
+    "fun_facts": [
+      "I teach Zumba",
+      "I’ve organized 3 charity events",
+      "I’m a twin"
+    ]
+  },
+  {
+    "name": "Elmo",
+    "hobbies": [
+      "Cars",
+      "Tech",
+      "Gaming",
+      "Photography",
+      "Gym"
+    ],
+    "intention_out": [
+      "Enjoy the event I came for",
+      "Relax and unwind"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Vibe"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Vibe"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      }
+    },
+    "money": [
+      "I only buy essentials"
+    ],
+    "transportation": [
+      "Walk when able"
+    ],
+    "diet": [
+      "No dairy",
+      "None"
+    ],
+    "social_battery": [
+      "Television/Movies",
+      "Being creative",
+      "A nice meal"
+    ],
+    "stress": [
+      "I don't...I shutdown"
+    ],
+    "traits": {
+      "Work Ethic": "Laid-back",
+      "Fitness": "Sedentary",
+      "Social": "Loner"
+    },
+    "fun_facts": [
+      "I’ve built a custom PC",
+      "I collect old cameras",
+      "I’ve gone skydiving"
+    ]
+  },
+  {
+    "name": "Pitbull",
+    "hobbies": [
+      "Writing",
+      "Art",
+      "Reading",
+      "Politics",
+      "Animals"
+    ],
+    "intention_out": [
+      "Make new friends",
+      "Have a good time & be spontaneous"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Vibe"
+        ],
+        "expected": [
+          "Meet People"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Dance"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      }
+    },
+    "money": [
+      "Varies"
+    ],
+    "transportation": [
+      "Not comfortable with strangers driving"
+    ],
+    "diet": [
+      "Vegetarian",
+      "Other"
+    ],
+    "social_battery": [
+      "Being creative",
+      "Time with family & friends",
+      "A nice meal"
+    ],
+    "stress": [
+      "For the most part I stay calm"
+    ],
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Balanced",
+      "Social": "Intimate friends"
+    },
+    "fun_facts": [
+      "I once won a writing contest",
+      "I adopted a hedgehog",
+      "I studied abroad in Denmark"
+    ]
+  },
+  {
+    "name": "Plato",
+    "hobbies": [
+      "Gaming",
+      "Music",
+      "Tech",
+      "TV",
+      "Video Games"
+    ],
+    "intention_out": [
+      "Listen to music and dance",
+      "Make new friends",
+      "Explore the location",
+      "Have a good time & be spontaneous",
+      "Try new things"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Dance"
+        ],
+        "expected": [
+          "Vibe"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Vibe"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Explore"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      }
+    },
+    "money": [
+      "Not concerned with money!"
+    ],
+    "transportation": [
+      "Uber/Lyft is preferred"
+    ],
+    "diet": [
+      "None",
+      "Low/No sugar",
+      "Other",
+      "Vegetarian",
+      "No dairy"
+    ],
+    "social_battery": [
+      "Television/Movies",
+      "Doing exercise",
+      "Time with family & friends",
+      "Being creative",
+      "A nice meal"
+    ],
+    "stress": [
+      "Ngl I freak out"
+    ],
+    "traits": {
+      "Work Ethic": "Driven",
+      "Fitness": "Sedentary",
+      "Social": "More friends"
+    },
+    "fun_facts": [
+      "I built my own PC",
+      "I’ve been to 12 concerts",
+      "I once interviewed a game designer"
+    ]
+  },
+  {
+    "name": "Socrates",
+    "hobbies": [
+      "Cooking",
+      "Drawing",
+      "Painting",
+      "Fashion",
+      "Movies"
+    ],
+    "intention_out": [
+      "Relax and unwind",
+      "Enjoy the event I came for",
+      "Meet people and have good conversation",
+      "Explore the location",
+      "Try new things"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Vibe"
+        ]
+      }
+    },
+    "money": [
+      "Budget when it doesn’t compromise experience"
+    ],
+    "transportation": [
+      "I like to drive"
+    ],
+    "diet": [
+      "Vegan",
+      "Other",
+      "Pescetarian",
+      "No dairy",
+      "Low/No sugar"
+    ],
+    "social_battery": [
+      "A nice meal",
+      "Being creative",
+      "Television/Movies",
+      "Time with family & friends",
+      "Going out and meeting new people"
+    ],
+    "stress": [
+      "For the most part I stay calm"
+    ],
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Balanced",
+      "Social": "Intimate friends"
+    },
+    "fun_facts": [
+      "I design my own clothes",
+      "I studied fashion history in Paris",
+      "I won a baking competition"
+    ]
+  },
+  {
+    "name": "Mack Daddy",
+    "hobbies": [
+      "Photography",
+      "Travel",
+      "Tech",
+      "Cars",
+      "Sports"
+    ],
+    "intention_out": [
+      "Have a good time & be spontaneous",
+      "Try new things",
+      "Explore the location",
+      "Listen to music and dance",
+      "Enjoy the event I came for"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Dance"
+        ],
+        "expected": [
+          "Vibe"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Vibe"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Meet People"
+        ]
+      }
+    },
+    "money": [
+      "Varies"
+    ],
+    "transportation": [
+      "Walk when able"
+    ],
+    "diet": [
+      "None",
+      "Vegetarian",
+      "Other",
+      "No dairy",
+      "Pescetarian"
+    ],
+    "social_battery": [
+      "Doing exercise",
+      "A nice meal",
+      "Time with family & friends",
+      "Being creative",
+      "Going out and meeting new people"
+    ],
+    "stress": [
+      "I don't...I shutdown"
+    ],
+    "traits": {
+      "Work Ethic": "Driven",
+      "Fitness": "Active",
+      "Social": "More friends"
+    },
+    "fun_facts": [
+      "I’ve been to 25 countries",
+      "I collect vintage cameras",
+      "I once road-tripped across the U.S."
+    ]
+  },
+  {
+    "name": "Franz Ferdinand",
+    "hobbies": [
+      "Tech",
+      "Gaming",
+      "Architecture",
+      "Movies",
+      "Card Games"
+    ],
+    "intention_out": [
+      "Enjoy the event I came for",
+      "Relax and unwind",
+      "Make new friends",
+      "Try new things",
+      "Explore the location"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      }
+    },
+    "money": [
+      "I only buy essentials"
+    ],
+    "transportation": [
+      "Not comfortable with strangers driving"
+    ],
+    "diet": [
+      "Other",
+      "None",
+      "Vegetarian",
+      "No dairy",
+      "Low/No sugar"
+    ],
+    "social_battery": [
+      "Being creative",
+      "Time with family & friends",
+      "Television/Movies",
+      "Going out and meeting new people",
+      "A nice meal"
+    ],
+    "stress": [
+      "I don't...I shutdown"
+    ],
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Balanced",
+      "Social": "Loner"
+    },
+    "fun_facts": [
+      "I build model cities in my spare time",
+      "I know every Oscar winner since 1990",
+      "I competed in a national chess tournament"
+    ]
+  },
+  {
+    "name": "The Rock",
+    "hobbies": [
+      "Tech",
+      "Gaming",
+      "Architecture",
+      "Movies",
+      "Card Games"
+    ],
+    "intention_out": [
+      "Enjoy the event I came for",
+      "Relax and unwind",
+      "Make new friends",
+      "Try new things",
+      "Explore the location"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      }
+    },
+    "money": [
+      "I only buy essentials"
+    ],
+    "transportation": [
+      "Not comfortable with strangers driving"
+    ],
+    "diet": [
+      "Other",
+      "None",
+      "Vegetarian",
+      "No dairy",
+      "Low/No sugar"
+    ],
+    "social_battery": [
+      "Being creative",
+      "Time with family & friends",
+      "Television/Movies",
+      "Going out and meeting new people",
+      "A nice meal"
+    ],
+    "stress": [
+      "I don't...I shutdown"
+    ],
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Balanced",
+      "Social": "Loner"
+    },
+    "fun_facts": [
+      "I build model cities in my spare time",
+      "I know every Oscar winner since 1990",
+      "I competed in a national chess tournament"
+    ],
+    "timestamp": "2025-07-22T16:40:41.029Z",
+    "userId": "user_11"
+  },
+  {
+    "name": "The Rock",
+    "hobbies": [
+      "Tech",
+      "Gaming",
+      "Architecture",
+      "Movies",
+      "Card Games"
+    ],
+    "intention_out": [
+      "Enjoy the event I came for",
+      "Relax and unwind",
+      "Make new friends",
+      "Try new things",
+      "Explore the location"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      }
+    },
+    "money": [
+      "I only buy essentials"
+    ],
+    "transportation": [
+      "Not comfortable with strangers driving"
+    ],
+    "diet": [
+      "Other",
+      "None",
+      "Vegetarian",
+      "No dairy",
+      "Low/No sugar"
+    ],
+    "social_battery": [
+      "Being creative",
+      "Time with family & friends",
+      "Television/Movies",
+      "Going out and meeting new people",
+      "A nice meal"
+    ],
+    "stress": [
+      "I don't...I shutdown"
+    ],
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Balanced",
+      "Social": "Loner"
+    },
+    "fun_facts": [
+      "I build model cities in my spare time",
+      "I know every Oscar winner since 1990",
+      "I competed in a national chess tournament"
+    ],
+    "timestamp": "2025-07-22T16:43:21.077Z",
+    "userId": "user_12"
+  },
+  {
+    "name": "The Rock",
+    "hobbies": [
+      "Tech",
+      "Gaming",
+      "Architecture",
+      "Movies",
+      "Card Games"
+    ],
+    "intention_out": [
+      "Enjoy the event I came for",
+      "Relax and unwind",
+      "Make new friends",
+      "Try new things",
+      "Explore the location"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      }
+    },
+    "money": [
+      "I only buy essentials"
+    ],
+    "transportation": [
+      "Not comfortable with strangers driving"
+    ],
+    "diet": [
+      "Other",
+      "None",
+      "Vegetarian",
+      "No dairy",
+      "Low/No sugar"
+    ],
+    "social_battery": [
+      "Being creative",
+      "Time with family & friends",
+      "Television/Movies",
+      "Going out and meeting new people",
+      "A nice meal"
+    ],
+    "stress": [
+      "I don't...I shutdown"
+    ],
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Balanced",
+      "Social": "Loner"
+    },
+    "fun_facts": [
+      "I build model cities in my spare time",
+      "I know every Oscar winner since 1990",
+      "I competed in a national chess tournament"
+    ],
+    "timestamp": "2025-07-22T16:49:24.722Z",
+    "userId": "user_13"
+  },
+  {
+    "name": "The Rock",
+    "hobbies": [
+      "Tech",
+      "Gaming",
+      "Architecture",
+      "Movies",
+      "Card Games"
+    ],
+    "intention_out": [
+      "Enjoy the event I came for",
+      "Relax and unwind",
+      "Make new friends",
+      "Try new things",
+      "Explore the location"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      }
+    },
+    "money": [
+      "I only buy essentials"
+    ],
+    "transportation": [
+      "Not comfortable with strangers driving"
+    ],
+    "diet": [
+      "Other",
+      "None",
+      "Vegetarian",
+      "No dairy",
+      "Low/No sugar"
+    ],
+    "social_battery": [
+      "Being creative",
+      "Time with family & friends",
+      "Television/Movies",
+      "Going out and meeting new people",
+      "A nice meal"
+    ],
+    "stress": [
+      "I don't...I shutdown"
+    ],
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Balanced",
+      "Social": "Loner"
+    },
+    "fun_facts": [
+      "I build model cities in my spare time",
+      "I know every Oscar winner since 1990",
+      "I competed in a national chess tournament"
+    ],
+    "timestamp": "2025-07-22T16:56:49.387Z",
+    "userId": "user_14"
+  },
+  {
+    "name": "Cara",
+    "hobbies": [
+      "Music",
+      "Gaming",
+      "Hiking",
+      "Photography",
+      "Card Games"
+    ],
+    "intention_out": [
+      "Meet people and have good conversation",
+      "Make new friends"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Dance"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Vibe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Vibe"
+        ],
+        "expected": [
+          "Meet People"
+        ]
+      }
+    },
+    "money": "Budget when it doesn’t compromise experience",
+    "transportation": "Walk when able",
+    "diet": [
+      "No dairy",
+      "Low/No sugar"
+    ],
+    "social_battery": [
+      "Doing exercise",
+      "Being creative"
+    ],
+    "stress": "For the most part I stay calm",
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Balanced",
+      "Social": "Intimate friends"
+    },
+    "fun_facts": [
+      "I go to UF",
+      "",
+      ""
+    ],
+    "timestamp": "2025-07-22T16:57:41.573Z",
+    "userId": "user_15"
+  },
+  {
+    "name": "The Rock",
+    "hobbies": [
+      "Tech",
+      "Gaming",
+      "Architecture",
+      "Movies",
+      "Card Games"
+    ],
+    "intention_out": [
+      "Enjoy the event I came for",
+      "Relax and unwind",
+      "Make new friends",
+      "Try new things",
+      "Explore the location"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      }
+    },
+    "money": [
+      "I only buy essentials"
+    ],
+    "transportation": [
+      "Not comfortable with strangers driving"
+    ],
+    "diet": [
+      "Other",
+      "None",
+      "Vegetarian",
+      "No dairy",
+      "Low/No sugar"
+    ],
+    "social_battery": [
+      "Being creative",
+      "Time with family & friends",
+      "Television/Movies",
+      "Going out and meeting new people",
+      "A nice meal"
+    ],
+    "stress": [
+      "I don't...I shutdown"
+    ],
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Balanced",
+      "Social": "Loner"
+    },
+    "fun_facts": [
+      "I build model cities in my spare time",
+      "I know every Oscar winner since 1990",
+      "I competed in a national chess tournament"
+    ],
+    "timestamp": "2025-07-22T16:59:15.325Z",
+    "userId": "user_16"
+  },
+  {
+    "name": "The Rock",
+    "hobbies": [
+      "Tech",
+      "Gaming",
+      "Architecture",
+      "Movies",
+      "Card Games"
+    ],
+    "intention_out": [
+      "Enjoy the event I came for",
+      "Relax and unwind",
+      "Make new friends",
+      "Try new things",
+      "Explore the location"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      }
+    },
+    "money": [
+      "I only buy essentials"
+    ],
+    "transportation": [
+      "Not comfortable with strangers driving"
+    ],
+    "diet": [
+      "Other",
+      "None",
+      "Vegetarian",
+      "No dairy",
+      "Low/No sugar"
+    ],
+    "social_battery": [
+      "Being creative",
+      "Time with family & friends",
+      "Television/Movies",
+      "Going out and meeting new people",
+      "A nice meal"
+    ],
+    "stress": [
+      "I don't...I shutdown"
+    ],
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Balanced",
+      "Social": "Loner"
+    },
+    "fun_facts": [
+      "I build model cities in my spare time",
+      "I know every Oscar winner since 1990",
+      "I competed in a national chess tournament"
+    ],
+    "timestamp": "2025-07-22T16:59:26.521Z",
+    "userId": "user_17"
+  },
+  {
+    "name": "The Rock",
+    "hobbies": [
+      "Tech",
+      "Gaming",
+      "Architecture",
+      "Movies",
+      "Card Games"
+    ],
+    "intention_out": [
+      "Enjoy the event I came for",
+      "Relax and unwind",
+      "Make new friends",
+      "Try new things",
+      "Explore the location"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      }
+    },
+    "money": [
+      "I only buy essentials"
+    ],
+    "transportation": [
+      "Not comfortable with strangers driving"
+    ],
+    "diet": [
+      "Other",
+      "None",
+      "Vegetarian",
+      "No dairy",
+      "Low/No sugar"
+    ],
+    "social_battery": [
+      "Being creative",
+      "Time with family & friends",
+      "Television/Movies",
+      "Going out and meeting new people",
+      "A nice meal"
+    ],
+    "stress": [
+      "I don't...I shutdown"
+    ],
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Balanced",
+      "Social": "Loner"
+    },
+    "fun_facts": [
+      "I build model cities in my spare time",
+      "I know every Oscar winner since 1990",
+      "I competed in a national chess tournament"
+    ],
+    "timestamp": "2025-07-22T16:59:56.958Z",
+    "userId": "user_18"
+  },
+  {
+    "name": "The Rock",
+    "hobbies": [
+      "Tech",
+      "Gaming",
+      "Architecture",
+      "Movies",
+      "Card Games"
+    ],
+    "intention_out": [
+      "Enjoy the event I came for",
+      "Relax and unwind",
+      "Make new friends",
+      "Try new things",
+      "Explore the location"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      }
+    },
+    "money": [
+      "I only buy essentials"
+    ],
+    "transportation": [
+      "Not comfortable with strangers driving"
+    ],
+    "diet": [
+      "Other",
+      "None",
+      "Vegetarian",
+      "No dairy",
+      "Low/No sugar"
+    ],
+    "social_battery": [
+      "Being creative",
+      "Time with family & friends",
+      "Television/Movies",
+      "Going out and meeting new people",
+      "A nice meal"
+    ],
+    "stress": [
+      "I don't...I shutdown"
+    ],
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Balanced",
+      "Social": "Loner"
+    },
+    "fun_facts": [
+      "I build model cities in my spare time",
+      "I know every Oscar winner since 1990",
+      "I competed in a national chess tournament"
+    ],
+    "timestamp": "2025-07-22T17:00:21.765Z",
+    "userId": "user_19"
+  },
+  {
+    "name": "The Rock",
+    "hobbies": [
+      "Tech",
+      "Gaming",
+      "Architecture",
+      "Movies",
+      "Card Games"
+    ],
+    "intention_out": [
+      "Enjoy the event I came for",
+      "Relax and unwind",
+      "Make new friends",
+      "Try new things",
+      "Explore the location"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      }
+    },
+    "money": [
+      "I only buy essentials"
+    ],
+    "transportation": [
+      "Not comfortable with strangers driving"
+    ],
+    "diet": [
+      "Other",
+      "None",
+      "Vegetarian",
+      "No dairy",
+      "Low/No sugar"
+    ],
+    "social_battery": [
+      "Being creative",
+      "Time with family & friends",
+      "Television/Movies",
+      "Going out and meeting new people",
+      "A nice meal"
+    ],
+    "stress": [
+      "I don't...I shutdown"
+    ],
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Balanced",
+      "Social": "Loner"
+    },
+    "fun_facts": [
+      "I build model cities in my spare time",
+      "I know every Oscar winner since 1990",
+      "I competed in a national chess tournament"
+    ],
+    "timestamp": "2025-07-22T17:01:58.121Z",
+    "userId": "user_20"
+  },
+  {
+    "name": "The Rock",
+    "hobbies": [
+      "Tech",
+      "Gaming",
+      "Architecture",
+      "Movies",
+      "Card Games"
+    ],
+    "intention_out": [
+      "Enjoy the event I came for",
+      "Relax and unwind",
+      "Make new friends",
+      "Try new things",
+      "Explore the location"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      }
+    },
+    "money": [
+      "I only buy essentials"
+    ],
+    "transportation": [
+      "Not comfortable with strangers driving"
+    ],
+    "diet": [
+      "Other",
+      "None",
+      "Vegetarian",
+      "No dairy",
+      "Low/No sugar"
+    ],
+    "social_battery": [
+      "Being creative",
+      "Time with family & friends",
+      "Television/Movies",
+      "Going out and meeting new people",
+      "A nice meal"
+    ],
+    "stress": [
+      "I don't...I shutdown"
+    ],
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Balanced",
+      "Social": "Loner"
+    },
+    "fun_facts": [
+      "I build model cities in my spare time",
+      "I know every Oscar winner since 1990",
+      "I competed in a national chess tournament"
+    ],
+    "timestamp": "2025-07-22T17:02:09.103Z",
+    "userId": "user_21"
+  },
+  {
+    "name": "The Rock",
+    "hobbies": [
+      "Tech",
+      "Gaming",
+      "Architecture",
+      "Movies",
+      "Card Games"
+    ],
+    "intention_out": [
+      "Enjoy the event I came for",
+      "Relax and unwind",
+      "Make new friends",
+      "Try new things",
+      "Explore the location"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      }
+    },
+    "money": [
+      "I only buy essentials"
+    ],
+    "transportation": [
+      "Not comfortable with strangers driving"
+    ],
+    "diet": [
+      "Other",
+      "None",
+      "Vegetarian",
+      "No dairy",
+      "Low/No sugar"
+    ],
+    "social_battery": [
+      "Being creative",
+      "Time with family & friends",
+      "Television/Movies",
+      "Going out and meeting new people",
+      "A nice meal"
+    ],
+    "stress": [
+      "I don't...I shutdown"
+    ],
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Balanced",
+      "Social": "Loner"
+    },
+    "fun_facts": [
+      "I build model cities in my spare time",
+      "I know every Oscar winner since 1990",
+      "I competed in a national chess tournament"
+    ],
+    "timestamp": "2025-07-22T17:04:50.923Z",
+    "userId": "user_22"
+  },
+  {
+    "name": "The Rock",
+    "hobbies": [
+      "Tech",
+      "Gaming",
+      "Architecture",
+      "Movies",
+      "Card Games"
+    ],
+    "intention_out": [
+      "Enjoy the event I came for",
+      "Relax and unwind",
+      "Make new friends",
+      "Try new things",
+      "Explore the location"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      }
+    },
+    "money": [
+      "I only buy essentials"
+    ],
+    "transportation": [
+      "Not comfortable with strangers driving"
+    ],
+    "diet": [
+      "Other",
+      "None",
+      "Vegetarian",
+      "No dairy",
+      "Low/No sugar"
+    ],
+    "social_battery": [
+      "Being creative",
+      "Time with family & friends",
+      "Television/Movies",
+      "Going out and meeting new people",
+      "A nice meal"
+    ],
+    "stress": [
+      "I don't...I shutdown"
+    ],
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Balanced",
+      "Social": "Loner"
+    },
+    "fun_facts": [
+      "I build model cities in my spare time",
+      "I know every Oscar winner since 1990",
+      "I competed in a national chess tournament"
+    ],
+    "timestamp": "2025-07-22T17:08:17.879Z",
+    "userId": "user_23"
+  },
+  {
+    "name": "The Rock",
+    "hobbies": [
+      "Tech",
+      "Gaming",
+      "Architecture",
+      "Movies",
+      "Card Games"
+    ],
+    "intention_out": [
+      "Enjoy the event I came for",
+      "Relax and unwind",
+      "Make new friends",
+      "Try new things",
+      "Explore the location"
+    ],
+    "intention_by_event": {
+      "Club": {
+        "self": [
+          "Observe"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      },
+      "Concert": {
+        "self": [
+          "Any"
+        ],
+        "expected": [
+          "Any"
+        ]
+      },
+      "Festival": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Dance"
+        ]
+      },
+      "House Party": {
+        "self": [
+          "Chill"
+        ],
+        "expected": [
+          "Observe"
+        ]
+      },
+      "Street Fair": {
+        "self": [
+          "Meet People"
+        ],
+        "expected": [
+          "Chill"
+        ]
+      }
+    },
+    "money": [
+      "I only buy essentials"
+    ],
+    "transportation": [
+      "Not comfortable with strangers driving"
+    ],
+    "diet": [
+      "Other",
+      "None",
+      "Vegetarian",
+      "No dairy",
+      "Low/No sugar"
+    ],
+    "social_battery": [
+      "Being creative",
+      "Time with family & friends",
+      "Television/Movies",
+      "Going out and meeting new people",
+      "A nice meal"
+    ],
+    "stress": [
+      "I don't...I shutdown"
+    ],
+    "traits": {
+      "Work Ethic": "Flexible",
+      "Fitness": "Balanced",
+      "Social": "Loner"
+    },
+    "fun_facts": [
+      "I build model cities in my spare time",
+      "I know every Oscar winner since 1990",
+      "I competed in a national chess tournament"
+    ],
+    "timestamp": "2025-07-22T17:08:23.008Z",
+    "userId": "user_24"
+  }
+]
